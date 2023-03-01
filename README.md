@@ -1,4 +1,4 @@
-# Movies App
+
 
 This project was bootstrapped with [Vite React App]
 
@@ -13,16 +13,9 @@ Project is created with:
 
 - React.js
 - Vite React App
-- Tailwind css
-- React Query
+- MUI
 - React-Router-dom
-- axios
-- Headless UI
-- Formik
-- Yup
-- React Icons
-- React Paginate
-- React Spinners
+
 
 ## Setup
 
@@ -34,15 +27,9 @@ To run this project, install it locally using npm:
 
 To Download the required dependencies
 
-after it finish you need to run tis
-
-### `npx json-server -w data/db.json -p 3500`
-
-because the some issus in the api that is why i used static data to make the website work,
-
-and then open another terminal and run
+after it finish you need to run tish
 
 ### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
