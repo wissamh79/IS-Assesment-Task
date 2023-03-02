@@ -22,29 +22,29 @@ const AppProvider = ({ children }) => {
     },
     {
       id: 2,
-      title: "",
+      title: "Categories",
       to: "",
       icon: <WidgetsRounded />,
     },
     {
       id: 3,
-      title: "",
+      title: "Account",
       to: "",
       icon: <AccountCircleRounded />,
     },
 
     {
       id: 5,
-      title: "",
+      title: "Users",
       to: "",
       icon: <PeopleRounded />,
     },
-    {
-      id: 6,
-      title: "",
-      to: "",
-      icon: <PhotoCameraFrontRounded />,
-    },
+    // {
+    //   id: 6,
+    //   title: "",
+    //   to: "",
+    //   icon: <PhotoCameraFrontRounded />,
+    // },
   ];
   const [isSide, setIsSide] = useState(false);
   const handleSideBar = () => setIsSide(!isSide);
